@@ -1,0 +1,15 @@
+[user]
+	name = Julien Ponge
+	email = julien.ponge@insa-lyon.fr
+
+[color]
+	ui = true
+
+[push]
+	default = matching
+
+[rerere]
+	enabled = true
+
+[credential]
+	helper = osxkeychain

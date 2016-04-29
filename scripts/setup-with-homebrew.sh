@@ -21,12 +21,13 @@ checking "XCode CLI"
 xcode-select --install 2>/dev/null || already_installed
 
 checking "Homebrew"
-if [ -e $(which brew) ]; then
+if [ -f /usr/local/bin/brew ]; then
   already_installed
 else
   installing "Homebrew"
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
+
 brew tap Homebrew/bundle
 brew update
 brew bundle
