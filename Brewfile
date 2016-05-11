@@ -21,6 +21,7 @@ cask 'spotify'
 cask 'gpgtools'
 cask 'slack'
 cask 'skype'
+cask 'whatsapp'
 
 cask 'atom'
 cask 'macvim'
