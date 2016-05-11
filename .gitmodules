@@ -22,3 +22,6 @@
 [submodule "home/.vim/bundle/nerdtree"]
 	path = home/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "home/.vim/bundle/vim-colors-smyck"]
+	path = home/.vim/bundle/vim-colors-smyck
+	url = https://github.com/slindberg/vim-colors-smyck.git
