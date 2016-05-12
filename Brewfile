@@ -80,6 +80,7 @@ brew 'imapsync'
 
 brew 'binutils'
 brew 'coreutils'
+brew 'moreutils'
 brew 'openssl'
 
 brew 'stow'
