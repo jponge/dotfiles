@@ -42,6 +42,7 @@ cask 'mactex'
 cask 'pandoc'
 cask 'skim'
 cask 'yed'
+cask 'openoffice'
 
 # Fonts
 
