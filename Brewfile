@@ -99,6 +99,7 @@ brew 'git-extras'
 
 brew 'gnupg'
 brew 'keybase'
+brew 'certbot'
 
 brew 'ant'
 brew 'maven'
