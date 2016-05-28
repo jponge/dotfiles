@@ -37,6 +37,7 @@ cask 'caffeine'
 
 cask 'audacity'
 cask 'beatport-pro'
+cask 'vlc'
 
 cask 'mactex'
 cask 'pandoc'
