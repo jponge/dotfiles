@@ -72,6 +72,7 @@ brew 'bash-completion'
 
 brew 'vim'
 brew 'nano'
+brew 'aspell'
 
 brew 'curl'
 brew 'wget'
