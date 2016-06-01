@@ -72,7 +72,7 @@ brew 'bash-completion'
 
 brew 'vim'
 brew 'nano'
-brew 'aspell', args: ['with-lang-fr']
+brew 'aspell', args: ['with-lang-fr', 'with-lang-en']
 
 brew 'curl'
 brew 'wget'
