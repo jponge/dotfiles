@@ -99,7 +99,7 @@ brew 'ccache'
 brew 'git'
 brew 'git-extras'
 
-brew 'gnupg'
+brew 'gnupg2'
 brew 'keybase'
 brew 'certbot'
 
