@@ -15,6 +15,7 @@ cask 'dropbox'
 cask '1Password'
 
 cask 'firefox'
+cask 'thunderbird'
 cask 'google-chrome'
 
 cask 'spotify'
