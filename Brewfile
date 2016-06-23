@@ -20,7 +20,8 @@ cask 'google-chrome'
 
 cask 'spotify'
 cask 'gpgtools'
-cask 'slack'
+# Use the Mac App Store version until upgrading works
+# cask 'slack'
 cask 'skype'
 cask 'whatsapp'
 
