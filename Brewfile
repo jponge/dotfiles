@@ -116,6 +116,7 @@ brew 'scala'
 brew 'node'
 brew 'python'
 brew 'python3'
+brew 'kotlin'
 brew 'rbenv'
 brew 'ruby-build'
 
