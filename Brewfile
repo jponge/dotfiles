@@ -120,6 +120,8 @@ brew 'kotlin'
 brew 'rbenv'
 brew 'ruby-build'
 
+brew 'vert.x'
+
 brew 'gnuplot'
 brew 'graphviz'
 brew 'matplotlib'
