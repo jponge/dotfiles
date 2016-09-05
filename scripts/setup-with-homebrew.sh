@@ -31,4 +31,4 @@ fi
 brew tap Homebrew/bundle
 brew update
 brew bundle
-brew cleanup
+brew cleanup -s
