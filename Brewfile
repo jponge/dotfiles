@@ -127,3 +127,4 @@ brew 'graphviz'
 brew 'matplotlib'
 
 brew 'docbook'
+brew 'docbook-xsl'
