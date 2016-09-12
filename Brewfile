@@ -125,3 +125,5 @@ brew 'vert.x'
 brew 'gnuplot'
 brew 'graphviz'
 brew 'matplotlib'
+
+brew 'docbook'
