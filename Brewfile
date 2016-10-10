@@ -66,6 +66,10 @@ cask 'font-pt-sans'
 cask 'font-pt-serif'
 cask 'font-ubuntu'
 cask 'font-yanone-kaffeesatz'
+cask 'font-noto-sans'
+cask 'font-noto-emoji'
+cask 'font-noto-color-emoji'
+cask 'font-noto-serif'
 
 # Brews
 
