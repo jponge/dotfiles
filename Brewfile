@@ -26,6 +26,7 @@ cask 'skype'
 cask 'whatsapp'
 
 cask 'atom'
+cask 'visual-studio-code'
 cask 'macvim'
 cask 'java'
 cask 'docker'
