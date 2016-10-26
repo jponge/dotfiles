@@ -28,6 +28,7 @@ cask 'whatsapp'
 cask 'atom'
 cask 'macvim'
 cask 'java'
+cask 'docker'
 
 cask 'transmission'
 cask 'coconutbattery'
