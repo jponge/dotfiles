@@ -37,7 +37,7 @@ cask 'disk-inventory-x'
 cask 'duet'
 cask 'appcleaner'
 cask 'the-unarchiver'
-cask 'caffeine'
+cask 'keepingyouawake'
 
 cask 'audacity'
 cask 'beatport-pro'
