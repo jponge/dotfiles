@@ -30,6 +30,7 @@ cask 'visual-studio-code'
 cask 'macvim'
 cask 'java'
 cask 'docker'
+cask 'wireshark'
 
 cask 'transmission'
 cask 'coconutbattery'
@@ -71,6 +72,8 @@ cask 'font-noto-sans'
 cask 'font-noto-emoji'
 cask 'font-noto-color-emoji'
 cask 'font-noto-serif'
+cask 'font-fira-code'
+cask 'font-hasklig'
 
 # Brews
 
