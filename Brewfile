@@ -117,6 +117,7 @@ brew 'certbot'
 brew 'ant'
 brew 'maven'
 brew 'gradle'
+brew 'yarn'
 
 brew 'go'
 brew 'golo'
