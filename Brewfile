@@ -109,6 +109,7 @@ brew 'pandoc'
 brew 'ccache'
 brew 'git'
 brew 'git-extras'
+brew 'mercurial'
 
 brew 'gnupg2'
 brew 'keybase'
