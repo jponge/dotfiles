@@ -74,6 +74,7 @@ cask 'font-noto-color-emoji'
 cask 'font-noto-serif'
 cask 'font-fira-code'
 cask 'font-hasklig'
+cask 'font-montserrat'
 
 # Brews
 
