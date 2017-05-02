@@ -17,6 +17,7 @@ cask '1Password'
 cask 'firefox'
 cask 'thunderbird'
 cask 'google-chrome'
+cask 'caskroom/versions/google-chrome-canary'
 
 cask 'spotify'
 cask 'gpgtools'
