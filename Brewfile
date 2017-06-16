@@ -25,6 +25,7 @@ cask 'gpgtools'
 # cask 'slack'
 cask 'skype'
 cask 'whatsapp'
+cask 'telegram-desktop'
 
 cask 'atom'
 cask 'visual-studio-code'
