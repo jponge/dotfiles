@@ -109,6 +109,7 @@ brew 'p7zip'
 brew 'unrar'
 brew 'imagemagick'
 brew 'lame'
+brew 'flac'
 brew 'xz'
 brew 'pandoc'
 
