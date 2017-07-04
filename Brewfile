@@ -19,8 +19,9 @@ cask 'thunderbird'
 cask 'google-chrome'
 cask 'caskroom/versions/google-chrome-canary'
 
-cask 'spotify'
 cask 'gpgtools'
+cask 'keybase'
+
 # Use the Mac App Store version until upgrading works
 # cask 'slack'
 cask 'skype'
@@ -42,6 +43,7 @@ cask 'appcleaner'
 cask 'the-unarchiver'
 cask 'keepingyouawake'
 
+cask 'spotify'
 cask 'audacity'
 cask 'beatport-pro'
 cask 'vlc'
@@ -116,7 +118,6 @@ brew 'git-extras'
 brew 'mercurial'
 
 brew 'gnupg2'
-brew 'keybase'
 brew 'certbot'
 
 brew 'ant'
