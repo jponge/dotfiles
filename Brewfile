@@ -48,6 +48,7 @@ cask 'spotify'
 cask 'audacity'
 cask 'beatport-pro'
 cask 'vlc'
+cask 'midi-monitor'
 
 cask 'mactex'
 cask 'skim'
