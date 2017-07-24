@@ -43,6 +43,7 @@ cask 'duet'
 cask 'appcleaner'
 cask 'the-unarchiver'
 cask 'keepingyouawake'
+cask 'onyx'
 
 cask 'spotify'
 cask 'audacity'
