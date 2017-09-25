@@ -32,3 +32,4 @@ brew tap Homebrew/bundle
 brew update
 brew bundle
 brew cleanup -s
+brew cask cleanup
