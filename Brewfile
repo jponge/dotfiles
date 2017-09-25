@@ -27,7 +27,6 @@ cask 'keybase'
 cask 'skype'
 cask 'whatsapp'
 cask 'telegram-desktop'
-cask 'spectacle'
 
 cask 'atom'
 cask 'visual-studio-code'
