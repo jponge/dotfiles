@@ -33,6 +33,8 @@ cask 'atom'
 cask 'visual-studio-code'
 cask 'macvim'
 cask 'java'
+cask 'java8'
+
 cask 'docker'
 cask 'wireshark'
 
