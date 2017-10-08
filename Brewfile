@@ -50,12 +50,14 @@ cask 'spotify'
 cask 'audacity'
 cask 'beatport-pro'
 cask 'vlc'
-cask 'midi-monitor'
+# cask 'midi-monitor'
 
 cask 'mactex'
 cask 'skim'
 cask 'yed'
 cask 'libreoffice'
+
+cask 'google-nik-collection'
 
 # Fonts
 
