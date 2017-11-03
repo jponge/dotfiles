@@ -8,6 +8,7 @@ tap 'homebrew/versions'
 tap 'homebrew/dupes'
 tap 'homebrew/python'
 tap 'caskroom/fonts'
+tap 'buo/cask-upgrade'
 
 # Casks
 
