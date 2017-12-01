@@ -29,7 +29,7 @@ cask 'skype'
 cask 'whatsapp'
 cask 'telegram-desktop'
 
-# cask 'atom'
+cask 'intellij-idea-ce'
 cask 'visual-studio-code'
 cask 'macvim'
 cask 'java'
