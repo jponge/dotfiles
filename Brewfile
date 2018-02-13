@@ -22,6 +22,7 @@ cask 'caskroom/versions/google-chrome-canary'
 
 cask 'gpgtools'
 cask 'keybase'
+cask 'veracrypt'
 
 # Use the Mac App Store version until upgrading works
 # cask 'slack'
