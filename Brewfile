@@ -29,6 +29,7 @@ cask 'veracrypt'
 cask 'skype'
 cask 'whatsapp'
 cask 'telegram-desktop'
+cask 'gitter'
 
 cask 'intellij-idea-ce'
 cask 'visual-studio-code'
