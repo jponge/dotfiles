@@ -26,7 +26,7 @@ cask 'veracrypt'
 
 # Use the Mac App Store version until upgrading works
 # cask 'slack'
-cask 'skype'
+cask 'skype7'
 cask 'whatsapp'
 cask 'telegram-desktop'
 cask 'gitter'
