@@ -38,6 +38,8 @@ cask 'java'
 cask 'java8'
 
 cask 'docker'
+cask 'virtualbox'
+cask 'virtualbox-extension-pack'
 cask 'wireshark'
 
 cask 'transmission'
