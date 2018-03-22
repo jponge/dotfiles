@@ -12,4 +12,8 @@ function switch-to-java9 {
   export JAVA_HOME=`/usr/libexec/java_home -v 9`
 }
 
+function switch-to-java10 {
+  export JAVA_HOME=`/usr/libexec/java_home -v 10`
+}
+
 switch-to-java8
