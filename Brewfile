@@ -36,6 +36,7 @@ cask 'visual-studio-code'
 cask 'macvim'
 cask 'java'
 cask 'java8'
+cask 'iterm2'
 
 cask 'docker'
 cask 'virtualbox'
