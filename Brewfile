@@ -18,20 +18,15 @@ cask '1Password'
 cask 'firefox'
 cask 'thunderbird'
 cask 'google-chrome'
-cask 'caskroom/versions/google-chrome-canary'
 
-cask 'gpgtools'
-cask 'keybase'
 cask 'veracrypt'
 
-# Use the Mac App Store version until upgrading works
-# cask 'slack'
-cask 'skype7'
+cask 'slack'
+cask 'skype'
 cask 'whatsapp'
 cask 'telegram-desktop'
 cask 'gitter'
 
-cask 'intellij-idea-ce'
 cask 'visual-studio-code'
 cask 'macvim'
 cask 'java'
@@ -63,7 +58,7 @@ cask 'skim'
 cask 'yed'
 cask 'libreoffice'
 
-cask 'google-nik-collection'
+# cask 'google-nik-collection'
 
 # Fonts
 
