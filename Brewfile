@@ -93,6 +93,9 @@ cask 'caskroom/fonts/font-fontawesome'
 brew 'bash'
 brew 'bash-completion'
 
+brew 'zsh'
+brew 'zsh-completion'
+
 brew 'vim'
 brew 'nano'
 brew 'aspell', args: ['with-lang-fr', 'with-lang-en']
