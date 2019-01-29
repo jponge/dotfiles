@@ -29,9 +29,9 @@ cask 'gitter'
 
 cask 'visual-studio-code'
 cask 'macvim'
-cask 'java'
-cask 'java8'
 cask 'iterm2'
+
+cask 'jabba'
 
 cask 'docker'
 cask 'virtualbox'

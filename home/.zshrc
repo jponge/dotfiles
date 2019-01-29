@@ -11,7 +11,7 @@ export ZSH="/Users/jponge/.oh-my-zsh"
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="robbyrussell"
 
-# Cool themes: gentoo, robbyrussel, agnoster
+# Cool themes: robbyrussell, agnoster, juanghurtado
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -104,4 +104,3 @@ done
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
