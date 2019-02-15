@@ -48,10 +48,8 @@ cask 'keepingyouawake'
 cask 'onyx'
 
 cask 'spotify'
-cask 'audacity'
 cask 'beatport-pro'
 cask 'vlc'
-# cask 'midi-monitor'
 
 cask 'mactex'
 cask 'skim'
@@ -95,6 +93,7 @@ brew 'bash-completion'
 
 brew 'zsh'
 brew 'zsh-completion'
+brew 'fzf'
 
 brew 'vim'
 brew 'nano'
