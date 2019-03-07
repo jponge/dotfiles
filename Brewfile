@@ -85,6 +85,8 @@ cask 'caskroom/fonts/font-fira-code'
 cask 'caskroom/fonts/font-hasklig'
 cask 'caskroom/fonts/font-montserrat'
 cask 'caskroom/fonts/font-fontawesome'
+cask 'caskroom/fonts/font-ibm-plex'
+cask 'caskroom/fonts/font-cousine'
 
 # Brews
 
