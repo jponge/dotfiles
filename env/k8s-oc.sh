@@ -1,10 +1,16 @@
 # Stuff for Kubernetes and OpenShift
 
 if [ -n "$ZSH_VERSION" ]; then
-  source <(kubectl completion zsh)
-  source <(oc completion zsh)
+  TARGET="zsh"
 elif [ -n "$BASH_VERSION" ]; then
-  source <(kubectl completion bash)
-  source <(oc completion bash)
+  TARGET="bash"
+fi
+
+if [ -f /usr/local/bin/kubectl ]; then
+  source <(kubectl completion $TARGET)
+fi
+
+if [ -f /usr/local/bin/oc ]; then
+  source <(oc completion $TARGET)
 fi
 
