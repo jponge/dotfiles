@@ -86,7 +86,7 @@ brew 'fzf'
 
 brew 'vim'
 brew 'nano'
-brew 'aspell', args: ['with-lang-fr', 'with-lang-en']
+brew 'aspell'
 
 brew 'curl'
 brew 'wget'
