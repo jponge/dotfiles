@@ -2,7 +2,6 @@
 
 tap 'homebrew/bundle'
 tap 'caskroom/cask'
-tap 'caskroom/fonts'
 tap 'buo/cask-upgrade'
 
 # Casks
