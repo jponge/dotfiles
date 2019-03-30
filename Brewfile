@@ -132,3 +132,4 @@ brew 'ruby-build'
 
 brew 'gnuplot'
 brew 'graphviz'
+brew 'plantuml'
