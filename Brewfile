@@ -74,6 +74,7 @@ cask 'font-montserrat'
 cask 'font-fontawesome'
 cask 'font-ibm-plex'
 cask 'font-cousine'
+cask 'font-handlee'
 
 # Brews
 
