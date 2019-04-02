@@ -20,7 +20,7 @@ cask 'veracrypt'
 cask 'slack'
 cask 'skype'
 cask 'whatsapp'
-cask 'telegram-desktop'
+cask 'telegram'
 cask 'gitter'
 
 cask 'visual-studio-code'
