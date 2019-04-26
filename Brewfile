@@ -115,6 +115,7 @@ brew 'pandoc'
 brew 'ccache'
 brew 'git'
 brew 'git-extras'
+brew 'hub'
 brew 'mercurial'
 
 brew 'gnupg2'
