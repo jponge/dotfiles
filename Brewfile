@@ -22,6 +22,7 @@ cask 'skype'
 cask 'whatsapp'
 cask 'telegram'
 cask 'gitter'
+cask 'zulip'
 
 cask 'visual-studio-code'
 cask 'iterm2'
