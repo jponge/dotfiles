@@ -69,7 +69,6 @@ plugins=(
   git
   docker
   fzf
-  github
 )
 
 source $ZSH/oh-my-zsh.sh
