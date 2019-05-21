@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 tap 'caskroom/cask'
 tap 'homebrew/cask-fonts'
 tap 'buo/cask-upgrade'
+tap 'wagoodman/dive'
 
 # Casks
 
@@ -110,6 +111,8 @@ brew 'lame'
 brew 'flac'
 brew 'xz'
 brew 'pandoc'
+
+brew 'dive'
 
 brew 'ccache'
 brew 'git'
