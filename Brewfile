@@ -113,6 +113,7 @@ brew 'xz'
 brew 'pandoc'
 
 brew 'dive'
+brew 'forego'
 
 brew 'ccache'
 brew 'git'
