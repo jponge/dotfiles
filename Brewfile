@@ -75,6 +75,7 @@ cask 'font-fontawesome'
 cask 'font-ibm-plex'
 cask 'font-cousine'
 cask 'font-handlee'
+cask 'font-redhat'
 
 # Brews
 
