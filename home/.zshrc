@@ -69,6 +69,8 @@ plugins=(
   git
   docker
   fzf
+  httpie
+  # minikube
 )
 
 source $ZSH/oh-my-zsh.sh
