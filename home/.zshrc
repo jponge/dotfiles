@@ -70,7 +70,7 @@ plugins=(
   docker
   fzf
   httpie
-  # minikube
+  minikube
 )
 
 source $ZSH/oh-my-zsh.sh
