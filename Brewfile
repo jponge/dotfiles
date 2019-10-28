@@ -95,6 +95,7 @@ brew 'curl'
 brew 'wget'
 brew 'rsync'
 brew 'httpie'
+
 brew 'awscli'
 brew 'imapsync'
 
@@ -106,13 +107,18 @@ brew 'openssl'
 brew 'stow'
 brew 'tree'
 brew 'pstree'
+brew 'bat'
+brew 'watchexec'
+
 brew 'p7zip'
 brew 'unrar'
+brew 'xz'
+
 brew 'imagemagick'
+brew 'pandoc'
+
 brew 'lame'
 brew 'flac'
-brew 'xz'
-brew 'pandoc'
 
 brew 'dive'
 brew 'forego'
