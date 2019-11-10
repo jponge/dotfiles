@@ -71,6 +71,7 @@ plugins=(
   fzf
   httpie
   minikube
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
