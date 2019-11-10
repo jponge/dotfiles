@@ -72,6 +72,7 @@ plugins=(
   httpie
   minikube
   zsh-syntax-highlighting
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
