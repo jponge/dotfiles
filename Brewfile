@@ -27,6 +27,7 @@ cask 'zulip'
 
 cask 'visual-studio-code'
 cask 'iterm2'
+cask 'maccy'
 
 cask 'docker'
 cask 'virtualbox'
