@@ -122,6 +122,8 @@ brew 'lame'
 brew 'flac'
 
 brew 'dive'
+brew 'kube-ps1'
+brew 'kubectl'
 brew 'forego'
 
 brew 'ccache'
