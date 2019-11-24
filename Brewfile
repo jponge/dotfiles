@@ -113,6 +113,7 @@ brew 'bat'
 brew 'watchexec'
 brew 'htop'
 brew 'fd'
+brew 'noti'
 
 brew 'p7zip'
 brew 'unrar'
