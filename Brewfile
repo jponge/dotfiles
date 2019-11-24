@@ -114,6 +114,7 @@ brew 'watchexec'
 brew 'htop'
 brew 'fd'
 brew 'noti'
+brew 'the_silver_searcher'
 
 brew 'p7zip'
 brew 'unrar'
