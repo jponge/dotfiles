@@ -112,6 +112,7 @@ brew 'pstree'
 brew 'bat'
 brew 'watchexec'
 brew 'htop'
+brew 'fd'
 
 brew 'p7zip'
 brew 'unrar'
