@@ -26,6 +26,7 @@ cask 'gitter'
 cask 'zulip'
 
 cask 'visual-studio-code'
+cask 'sourcetree'
 cask 'iterm2'
 cask 'maccy'
 
