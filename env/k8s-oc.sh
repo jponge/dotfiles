@@ -14,3 +14,8 @@ if [ -f /usr/local/bin/oc ]; then
   source <(oc completion $TARGET)
 fi
 
+alias k="kubectl"
+alias ka="kubectl apply -f"
+alias kd="kubectl delete -f"
+alias kgp="kubectl get pods"
+alias kgs="kubectl get services"
