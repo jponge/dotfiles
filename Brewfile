@@ -97,6 +97,7 @@ brew 'curl'
 brew 'wget'
 brew 'rsync'
 brew 'httpie'
+brew 'hostess'
 
 brew 'awscli'
 brew 'imapsync'
