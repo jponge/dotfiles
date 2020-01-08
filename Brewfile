@@ -88,6 +88,7 @@ brew 'bash-completion'
 brew 'zsh'
 brew 'zsh-completion'
 brew 'fzf'
+brew 'tmux'
 
 brew 'vim'
 brew 'nano'
