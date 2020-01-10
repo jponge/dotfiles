@@ -12,6 +12,7 @@ cask 'dropbox'
 cask '1Password'
 cask 'authy'
 cask 'viscosity'
+cask 'keybase'
 
 cask 'firefox'
 cask 'google-chrome'
@@ -140,6 +141,7 @@ brew 'hub'
 brew 'mercurial'
 
 brew 'gnupg2'
+brew 'pinentry-mac'
 
 brew 'ant'
 brew 'maven'

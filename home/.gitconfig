@@ -1,6 +1,7 @@
 [user]
 	name = Julien Ponge
-	email = julien.ponge@gmail.com
+	email = jponge@redhat.com
+	signingkey = 99447033FD4E69B4
 
 [color]
 	ui = true
@@ -23,3 +24,4 @@
 	trustExitCode = true
 [commit]
 	template = /Users/jponge/.stCommitMsg
+	gpgsign = true
