@@ -80,6 +80,7 @@ cask 'font-cousine'
 cask 'font-handlee'
 cask 'font-redhat'
 cask 'font-cascadia'
+cask 'font-jetbrains-mono'
 
 # Brews
 
