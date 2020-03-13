@@ -119,6 +119,7 @@ brew 'htop'
 brew 'fd'
 brew 'noti'
 brew 'the_silver_searcher'
+brew 'bandwhich'
 
 brew 'p7zip'
 brew 'unrar'
