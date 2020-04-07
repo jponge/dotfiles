@@ -24,6 +24,7 @@ cask 'whatsapp'
 cask 'telegram'
 cask 'gitter'
 cask 'zulip'
+cask 'blue-jeans'
 
 cask 'visual-studio-code'
 cask 'sourcetree'
