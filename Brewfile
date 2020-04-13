@@ -156,6 +156,7 @@ brew 'node'
 brew 'python'
 brew 'rbenv'
 brew 'ruby-build'
+brew 'pyenv'
 
 brew 'gnuplot'
 brew 'graphviz'
