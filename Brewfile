@@ -45,6 +45,8 @@ cask 'onyx'
 cask 'spotify'
 cask 'vlc'
 
+cask 'notion'
+
 cask 'mactex'
 cask 'skim'
 cask 'adobe-acrobat-reader'
