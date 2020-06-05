@@ -1,3 +1,5 @@
 [ -s "/Users/jponge/.jabba/jabba.sh" ] && \
 source "/Users/jponge/.jabba/jabba.sh" && \
-jabba use zulu@1.11.0-7
+
+# Pick a default JDK
+jabba use $(jabba ls | grep zulu | grep 1.11 | sort | tail -n 1)
