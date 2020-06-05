@@ -26,3 +26,5 @@
 [commit]
 	template = /Users/jponge/.stCommitMsg
 	gpgsign = true
+[pull]
+	rebase = false
