@@ -112,6 +112,7 @@ brew 'coreutils'
 brew 'moreutils'
 brew 'openssl'
 
+brew 'exa'
 brew 'stow'
 brew 'tree'
 brew 'pstree'
