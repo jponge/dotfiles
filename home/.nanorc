@@ -1,2 +1,2 @@
-include /usr/local/share/nano/*
+#include /usr/local/share/nano/
 
