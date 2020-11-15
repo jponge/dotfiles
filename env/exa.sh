@@ -1,4 +1,5 @@
 # A few aliases for exa, a ls replacement
+alias ls="exa --sort Name"
 alias l="exa --sort Name"
 alias ll="exa --sort Name --long"
 alias la="exa --sort Name --long --all"
