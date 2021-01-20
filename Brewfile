@@ -1,166 +1,193 @@
-# General
+# Taps
 
-tap 'homebrew/bundle'
-tap 'homebrew/cask-fonts'
-tap 'buo/cask-upgrade'
-tap 'wagoodman/dive'
-
-# Casks
-
-cask 'dropbox'
-cask '1Password'
-cask 'authy'
-cask 'viscosity'
-cask 'keybase'
-
-cask 'firefox'
-cask 'google-chrome'
-
-cask 'veracrypt'
-
-cask 'slack'
-cask 'skype'
-cask 'whatsapp'
-cask 'telegram'
-cask 'gitter'
-cask 'zulip'
-cask 'blue-jeans'
-
-cask 'visual-studio-code'
-cask 'sourcetree'
-cask 'iterm2'
-
-cask 'docker'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
-
-cask 'transmission'
-cask 'coconutbattery'
-cask 'disk-inventory-x'
-cask 'appcleaner'
-cask 'the-unarchiver'
-cask 'keepingyouawake'
-cask 'onyx'
-
-cask 'spotify'
-cask 'vlc'
-
-cask 'notion'
-
-cask 'mactex'
-cask 'skim'
-cask 'adobe-acrobat-reader'
-
-# Fonts
-
-cask 'font-inconsolata'
-cask 'font-roboto'
-cask 'font-roboto-condensed'
-cask 'font-roboto-mono'
-cask 'font-roboto-slab'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
-cask 'font-open-sans'
-cask 'font-open-sans-condensed'
-cask 'font-pt-mono'
-cask 'font-pt-sans'
-cask 'font-pt-serif'
-cask 'font-ubuntu'
-cask 'font-yanone-kaffeesatz'
-cask 'font-noto-sans'
-cask 'font-noto-emoji'
-cask 'font-noto-color-emoji'
-cask 'font-noto-serif'
-cask 'font-fira-code'
-cask 'font-hasklig'
-cask 'font-montserrat'
-cask 'font-fontawesome'
-cask 'font-ibm-plex'
-cask 'font-cousine'
-cask 'font-handlee'
-cask 'font-redhat'
-cask 'font-cascadia'
-cask 'font-jetbrains-mono'
-cask 'font-linux-libertine'
+tap "buo/cask-upgrade"
+tap "derailed/k9s"
+tap "github/gh"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "jabley/wrk2"
+tap "jbangdev/tap"
 
 # Brews
 
-brew 'bash'
-brew 'bash-completion'
+brew "act"
+brew "ant"
+brew "xz"
+brew "asciidoc"
+brew "aspell"
+brew "awscli"
+brew "bandwhich"
+brew "bash"
+brew "bash-completion"
+brew "bat"
+brew "binutils"
+brew "ccache"
+brew "chkrootkit"
+brew "coreutils"
+brew "libev"
+brew "curl"
+brew "dnsmasq", restart_service: true
+brew "exa"
+brew "fd"
+brew "flac"
+brew "lame"
+brew "ffmpeg"
+brew "fzf"
+brew "gh"
+brew "git"
+brew "git-extras"
+brew "gnupg"
+brew "gnuplot"
+brew "go"
+brew "golo"
+brew "gradle"
+brew "graphviz"
+brew "hey"
+brew "hivemind"
+brew "hostess"
+brew "htop"
+brew "httpie"
+brew "hub"
+brew "imagemagick"
+brew "imapsync"
+brew "jq"
+brew "jrnl"
+brew "kind"
+brew "kotlin"
+brew "kube-ps1"
+brew "mas"
+brew "maven"
+brew "mercurial"
+brew "minikube"
+brew "moreutils"
+brew "nano"
+brew "neovim"
+brew "netcat"
+brew "node"
+brew "noti"
+brew "openshift-cli"
+brew "p7zip"
+brew "pandoc"
+brew "pinentry-mac"
+brew "plantuml"
+brew "pstree"
+brew "pumba"
+brew "pyenv"
+brew "ruby-build"
+brew "rbenv"
+brew "rsync"
+brew "skaffold"
+brew "stow"
+brew "the_silver_searcher"
+brew "tmux"
+brew "tree"
+brew "unrar"
+brew "vegeta"
+brew "vim"
+brew "watchexec"
+brew "websocat"
+brew "wget"
+brew "wrk"
+brew "yarn"
+brew "youtube-dl"
+brew "zsh"
+brew "zsh-completions"
+brew "derailed/k9s/k9s"
+brew "jbangdev/tap/jbang"
+brew "wagoodman/dive/dive"
 
-brew 'zsh'
-brew 'zsh-completion'
-brew 'fzf'
-brew 'tmux'
+# Casks
 
-brew 'vim'
-brew 'nano'
-brew 'aspell'
+cask "1password"
+cask "adobe-acrobat-reader"
+cask "adoptopenjdk"
+cask "appcleaner"
+cask "authy"
+cask "blue-jeans"
+cask "brave-browser"
+cask "coconutbattery"
+cask "discord"
+cask "disk-inventory-x"
+cask "docker"
+cask "dropbox"
+cask "gitter"
+cask "google-chrome"
+cask "grammarly"
+cask "handbrake"
+cask "iterm2"
+cask "jdk-mission-control"
+cask "keepingyouawake"
+cask "keybase"
+cask "mactex"
+cask "microsoft-teams"
+cask "mongodb-compass-community"
+cask "multipass"
+cask "notion"
+cask "obs"
+cask "onyx"
+cask "osxfuse"
+cask "rectangle"
+cask "signal"
+cask "skim"
+cask "skype"
+cask "slack"
+cask "sourcetree"
+cask "spotify"
+cask "telegram-desktop"
+cask "the-unarchiver"
+cask "transmission"
+cask "veracrypt"
+cask "virtualbox"
+cask "virtualbox-extension-pack"
+cask "viscosity"
+cask "visual-studio-code"
+cask "vlc"
+cask "zoom"
+cask "zulip"
 
-brew 'curl'
-brew 'wget'
-brew 'rsync'
-brew 'httpie'
-brew 'hostess'
+# Fonts
 
-brew 'awscli'
-brew 'imapsync'
+cask "font-cascadia"
+cask "font-cousine"
+cask "font-fira-code"
+cask "font-fontawesome"
+cask "font-handlee"
+cask "font-hasklig"
+cask "font-ibm-plex"
+cask "font-inconsolata"
+cask "font-jetbrains-mono"
+cask "font-jetbrainsmono-nerd-font"
+cask "font-jetbrainsmono-nerd-font-mono"
+cask "font-linux-libertine"
+cask "font-montserrat"
+cask "font-noto-color-emoji"
+cask "font-noto-emoji"
+cask "font-noto-sans"
+cask "font-noto-serif"
+cask "font-open-sans"
+cask "font-open-sans-condensed"
+cask "font-pt-mono"
+cask "font-pt-sans"
+cask "font-pt-serif"
+cask "font-redhat"
+cask "font-roboto"
+cask "font-roboto-condensed"
+cask "font-roboto-mono"
+cask "font-roboto-slab"
+cask "font-signika-negative"
+cask "font-source-code-pro"
+cask "font-source-sans-pro"
+cask "font-source-serif-pro"
+cask "font-ubuntu"
+cask "font-yanone-kaffeesatz"
 
-brew 'binutils'
-brew 'coreutils'
-brew 'moreutils'
-brew 'openssl'
+# MAS
 
-brew 'exa'
-brew 'stow'
-brew 'tree'
-brew 'pstree'
-brew 'bat'
-brew 'watchexec'
-brew 'htop'
-brew 'fd'
-brew 'noti'
-brew 'the_silver_searcher'
-brew 'bandwhich'
-
-brew 'p7zip'
-brew 'unrar'
-brew 'xz'
-
-brew 'imagemagick'
-brew 'pandoc'
-
-brew 'lame'
-brew 'flac'
-
-brew 'dive'
-brew 'kube-ps1'
-brew 'kubectl'
-brew 'forego'
-
-brew 'ccache'
-brew 'git'
-brew 'git-extras'
-brew 'hub'
-brew 'mercurial'
-
-brew 'gnupg2'
-brew 'pinentry-mac'
-
-brew 'ant'
-brew 'maven'
-brew 'gradle'
-brew 'yarn'
-
-brew 'go'
-brew 'golo'
-brew 'node'
-brew 'python'
-brew 'rbenv'
-brew 'ruby-build'
-brew 'pyenv'
-
-brew 'gnuplot'
-brew 'graphviz'
-brew 'plantuml'
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Todoist", id: 585829637
