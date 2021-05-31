@@ -15,6 +15,6 @@ function upgrade_oh_my_zsh_custom {
 }
 
 function upgrade-zsh-config {
-  omz update
   upgrade_oh_my_zsh_custom
+  omz update  
 }

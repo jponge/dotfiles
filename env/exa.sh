@@ -8,3 +8,4 @@ alias lt="exa --sort Name --long --tree"
 alias lta="exa --sort Name --long --tree --all"
 
 alias ls="exa --sort Name"
+alias tree="exa --sort Name --tree"
