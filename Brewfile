@@ -1,7 +1,6 @@
 # Taps
 
 tap "buo/cask-upgrade"
-tap "derailed/k9s"
 tap "github/gh"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -30,7 +29,6 @@ brew "chkrootkit"
 brew "coreutils"
 brew "libev"
 brew "curl"
-brew "dnsmasq", restart_service: true
 brew "exa"
 brew "fd"
 brew "flac"

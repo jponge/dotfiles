@@ -65,8 +65,10 @@ export ZSH="/Users/jponge/.oh-my-zsh"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
+plugins=(  
   gitfast
+  gh
+  httpie
   docker
   fzf
   httpie
@@ -110,7 +112,8 @@ done
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-#[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 eval "$(starship init zsh)"
+
+# Add Jbang to environment
+alias j!=jbang
+export PATH="$HOME/.jbang/bin:$PATH"
