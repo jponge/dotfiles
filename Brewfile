@@ -83,6 +83,7 @@ brew "podman"
 brew "starship"
 brew "upx"
 brew "zellij"
+brew "svn"
 
 # Casks
 
