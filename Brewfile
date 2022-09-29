@@ -97,7 +97,7 @@ cask "rectangle"
 cask "signal"
 cask "skim"
 cask "slack"
-cask "telegram-desktop"
+cask "telegram"
 cask "visual-studio-code"
 cask "vlc"
 
