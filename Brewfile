@@ -13,7 +13,6 @@ tap "jbangdev/tap"
 
 # Brews
 
-brew "act"
 brew "ant"
 brew "xz"
 brew "asciidoc"
