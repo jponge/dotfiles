@@ -117,3 +117,6 @@ eval "$(starship init zsh)"
 # Add Jbang to environment
 alias j!=jbang
 export PATH="$HOME/.jbang/bin:$PATH"
+
+# Created by `pipx`
+export PATH="$PATH:/Users/jponge/.local/bin"
