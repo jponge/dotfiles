@@ -85,6 +85,7 @@ brew "starship"
 brew "upx"
 brew "zellij"
 brew "svn"
+brew "glances"
 
 # Casks
 
