@@ -120,3 +120,6 @@ export PATH="$HOME/.jbang/bin:$PATH"
 
 # Created by `pipx`
 export PATH="$PATH:/Users/jponge/.local/bin"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
