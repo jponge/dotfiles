@@ -1,6 +1,9 @@
 tap "buo/cask-upgrade"
 tap "dmnc/horology"
 
+brew "fish"
+brew "fisher"
+
 brew "act"
 brew "shellcheck"
 brew "actionlint"
