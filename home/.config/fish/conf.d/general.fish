@@ -21,3 +21,4 @@ alias lta "eza --color-scale --color auto --color-scale-mode=fixed --sort Name -
 alias ls "eza --color-scale --color auto --color-scale-mode=fixed --sort Name"
 alias tree "eza --color-scale --color auto --color-scale-mode=fixed --sort Name --tree"
 
+fish_add_path ~/.local/bin/
