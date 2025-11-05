@@ -1,0 +1,7 @@
+# Ignore fish files not to be versioned, and files from plugins
+home/.config/fish/fish_variables
+home/.config/fish/**/*sdk*
+home/.config/fish/**/*tide*
+home/.config/fish/**/fish_*prompt.fish*
+
+
