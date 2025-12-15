@@ -3,4 +3,5 @@ function upgrade-brews
     brew upgrade
     brew cu --cleanup
     brew cleanup -s
+    fish_update_completions
 end
