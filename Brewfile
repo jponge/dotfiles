@@ -113,6 +113,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "whatsapp"
 cask "wireshark-app"
+cask "zettlr"
 cask "zulip"
 
 # --- Casks: fonts ---
