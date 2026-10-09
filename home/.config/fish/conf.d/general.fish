@@ -1,7 +1,7 @@
 set -xg LC_ALL en_US.UTF-8
 set -xg LANG en_US.UTF-8
 
-set -xg EDITOR nvim
+set -xg EDITOR nano
 abbr vi nvim
 abbr vim nvim
 
@@ -22,3 +22,9 @@ alias ls "eza --color-scale --color auto --color-scale-mode=fixed --sort Name"
 alias tree "eza --color-scale --color auto --color-scale-mode=fixed --sort Name --tree"
 
 fish_add_path ~/.local/bin/
+
+# Remove gcloud from the right prompt list if it's there
+set -l index (contains -i gcloud $tide_right_prompt_items)
+if test -n "$index"
+    set -e tide_right_prompt_items[$index]
+end
