@@ -1,0 +1,19 @@
+command = /opt/homebrew/bin/fish
+
+theme = Catppuccin Mocha
+
+macos-titlebar-style = "tabs"
+
+link-url = true
+focus-follows-mouse = true
+
+window-padding-x = 10
+window-padding-y = 10
+
+background-opacity = 0.9
+background-blur = true
+
+font-size = 15
+font-thicken = true
+
+split-divider-color = #32CD32

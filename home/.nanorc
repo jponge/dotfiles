@@ -1,0 +1,22 @@
+## --- Visuals & UI ---
+set linenumbers      # Display line numbers on the left
+set minibar          # Hides the bulky shortcut list for a clean, modern status bar
+set indicator        # Shows a scrollbar-like position indicator on the right
+set titlecolor black,cyan   # Modernize the top bar colors
+set statuscolor white,blue  # Modernize the status message colors
+set numbercolor cyan        # Colorize line numbers
+
+## --- Editing & Behavior ---
+set autoindent       # Automatically match the indentation of the previous line
+set tabsize 4        # Set tab width to 4 spaces (standard for most coding/configs)
+set tabstospaces     # Convert tabs to spaces (highly recommended for Git commits)
+set smarthome        # Pressing 'Home' goes to the first word, not the absolute start
+set mouse            # Enable mouse support (click to move cursor, scroll wheel works!)
+
+## --- History & State ---
+set historylog       # Save search/replace history across sessions
+set positionlog      # Remember exactly where your cursor was if you reopen a file
+
+## --- Syntax Highlighting ---
+# Include syntax highlighting files provided by Homebrew
+include "/opt/homebrew/share/nano/*.nanorc"

@@ -1,0 +1,1 @@
+fish_add_path -ag $HOME/.cargo/bin

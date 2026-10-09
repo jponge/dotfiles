@@ -1,0 +1,11 @@
+# Fish plugin-managed files (installed by fisher, not tracked)
+home/.config/fish/completions/
+home/.config/fish/functions/_tide_*
+home/.config/fish/functions/__z*.fish
+home/.config/fish/conf.d/_tide_*
+home/.config/fish/conf.d/fish_frozen_key_bindings.fish
+home/.config/fish/conf.d/z.fish
+home/.config/fish/fish_variables
+
+# macOS
+.DS_Store
