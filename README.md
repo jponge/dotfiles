@@ -21,7 +21,7 @@ Personal dotfiles for macOS development environment.
    bash install.sh
    ```
 
-4. Open Ghostty — it will launch Fish. Tide will prompt for interactive configuration on first launch.
+4. Open Ghostty — it will launch Fish with the Tide prompt already configured.
 
 ## What's managed
 
@@ -49,5 +49,5 @@ The `--no-folding` flag prevents stow from symlinking entire directories.
 
 - Fish is NOT the login shell — Ghostty launches it via `command = /opt/homebrew/bin/fish`
 - Java and Ruby toolchains managed by `mise` (activated via `conf.d/mise.fish`)
-- Tide prompt configures itself interactively on first Ghostty launch
+- Tide prompt is configured automatically by `install.sh` (no interactive setup needed)
 - Use `brew bundle check` to detect drift from the Brewfile
