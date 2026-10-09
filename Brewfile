@@ -4,18 +4,23 @@ brew "nano"
 brew "stow"
 
 # --- Dev languages & toolchains ---
+brew "cmake"
 brew "go"
+brew "jdtls"
 brew "maven"
 brew "mise"
+brew "ninja"
 brew "pipx"
 brew "uv"
 
 # --- Containers & Kubernetes ---
+brew "container"
 brew "podman"
 brew "docker"
 brew "docker-compose"
 brew "dive"
 brew "kind"
+brew "qemu"
 brew "stern"
 
 # --- Git & CI ---
