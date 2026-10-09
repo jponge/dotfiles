@@ -16,12 +16,14 @@ Personal dotfiles for macOS development environment.
    git checkout mbp26
    ```
 
-3. Run the installer:
+3. Grant Terminal permission: System Settings → Privacy & Security → App Management → enable Terminal
+
+4. Run the installer:
    ```bash
    bash install.sh
    ```
 
-4. Open Ghostty — it will launch Fish with the Tide prompt already configured.
+5. Open Ghostty — it will launch Fish with the Tide prompt already configured.
 
 ## What's managed
 

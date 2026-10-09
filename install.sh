@@ -1,6 +1,10 @@
 #!/bin/bash
 set -uo pipefail
 
+# Pre-flight: ensure Terminal has App Management permission.
+# System Settings → Privacy & Security → App Management → enable Terminal.
+# Without this, some casks (mactex, fonts) may fail to install.
+
 echo "==> Step 1: Homebrew"
 if ! command -v brew >/dev/null 2>&1; then
   echo "Installing Homebrew..."
