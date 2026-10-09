@@ -20,7 +20,7 @@ else
 fi
 
 echo "==> Step 2: brew bundle"
-if ! brew bundle --no-lock --verbose --file=./Brewfile; then
+if ! brew bundle --verbose --file=./Brewfile; then
   echo "Warning: Some Homebrew formulae or casks may have failed to install" >&2
   echo "Check output above for details. Continuing anyway..." >&2
 fi
