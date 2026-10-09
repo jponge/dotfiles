@@ -1,5 +1,3 @@
-tap "buo/cask-upgrade"
-
 # --- Shell & editors ---
 brew "fish"
 brew "bash"
@@ -46,7 +44,7 @@ brew "binutils"
 brew "curl"
 brew "wget"
 brew "rsync"
-brew "p7zip"
+brew "sevenzip"
 brew "xz"
 brew "watch"
 brew "watchexec"
@@ -70,7 +68,7 @@ brew "websocat"
 brew "hivemind"
 
 # --- Document & media ---
-brew "asciidoc"
+brew "asciidoctor"
 brew "pandoc"
 brew "hugo"
 brew "plantuml"

@@ -8,8 +8,8 @@ set -uo pipefail
 echo "==> Step 1: Homebrew"
 if ! command -v brew >/dev/null 2>&1; then
   echo "Installing Homebrew..."
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  if [ $? -ne 0 ] && ! command -v brew >/dev/null 2>&1; then
+  NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  if ! command -v /opt/homebrew/bin/brew >/dev/null 2>&1; then
     echo "Error: Homebrew installation failed" >&2
     exit 1
   fi
@@ -20,13 +20,13 @@ else
 fi
 
 echo "==> Step 2: brew bundle"
-brew bundle --file=./Brewfile
-if [ $? -ne 0 ]; then
+if ! brew bundle --no-lock --verbose --file=./Brewfile; then
   echo "Warning: Some Homebrew formulae or casks may have failed to install" >&2
   echo "Check output above for details. Continuing anyway..." >&2
 fi
 
 echo "==> Step 3: stow dotfiles"
+mkdir -p ~/.config
 if ! stow --no-folding home; then
   echo "Error: stow failed" >&2
   exit 1
