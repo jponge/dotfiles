@@ -27,6 +27,10 @@ fi
 
 echo "==> Step 3: stow dotfiles"
 mkdir -p ~/.config
+if [ -f ~/.zprofile ] && [ ! -L ~/.zprofile ]; then
+  echo "Backing up existing ~/.zprofile to ~/.zprofile.bak"
+  mv ~/.zprofile ~/.zprofile.bak
+fi
 if ! stow --no-folding home; then
   echo "Error: stow failed" >&2
   exit 1
@@ -69,6 +73,12 @@ if [ -L "$HOME/.config/fish/conf.d/general.fish" ]; then
   echo "✓ stow symlinks exist"
 else
   echo "✗ stow symlinks do NOT exist"
+fi
+
+if [ -L "$HOME/.zprofile" ]; then
+  echo "✓ ~/.zprofile is linked"
+else
+  echo "✗ ~/.zprofile is NOT linked"
 fi
 
 if fish -c 'type -q fisher' 2>/dev/null; then
